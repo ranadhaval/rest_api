@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:rest_app/HOMEF.dart';
 import 'package:rest_app/home.dart';
 import 'package:rest_app/home2.dart';
+import 'package:rest_app/home_sample.dart';
 import 'package:rest_app/model/my_model.dart';
 import 'package:rest_app/no_model.dart';
 
@@ -22,7 +23,7 @@ class _MyappState extends State<Myapp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyWidget(),
+      home: home_sample(),
     );
   }
 }
